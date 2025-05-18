@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Specifies Character encoding for the HTML document-->
+    <meta charset="UTF-8">
+    <meta name="description" content="Person Counter APP">
+    <!--Define Keywords for Search Engines-->
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <!--Define Author of the Page-->
+    <meta name="author" content="JacobCoding">
+    <!--Setting the viewport to make the website look good on all devices, This meta element should be included in all webpages-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Nest link element (empty tag/self-closing) to stylesheet within head element-->
+    <link rel="stylesheet" href="index.css">
+    <title>Person Counter App</title>
+</head>
+
+<body>
+    <!--set id element "count-el" to 0, this id sets the count to 0 and enables it to be refereced and updated inside our javascript and CSS files-->
+    <h1>People entered:</h1>
+    <!--Add onclick HTML attribute to id-->
+    <h2 id="count-el">0</h2>
+    <!--Create an INCREMENT button with the id="increment-btn", Add onclick html attribute to increment button-->
+    <button id="increment-btn" onclick="increment()">INCREMENT</button>
+
+
+
+
+
+
+
+
+
+    <!--Nest Js sript at the bottom of the body just above the closing tag to prevent potential HTML parsing erros and percieved loading speed of the webpage for the user-->
+    <script src="index.js"></script>
+</body>
+
+
+
+
+
+
+
+</html>
